@@ -1,0 +1,21 @@
+# Environment & Secrets (NEVER push keys)
+.env
+*.env
+
+# Python & Virtual Environments
+ven/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# LanceDB Local Vectors
+data/sample-lancedb/
+
+# Node & Frontend
+frontend/node_modules/
+frontend/dist/
+
+# OS Files
+.DS_Storerag-design-basic.png
+sample_data/source/*.pdf
